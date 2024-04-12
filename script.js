@@ -824,8 +824,8 @@
 }(document, jQuery, wordfind));
 
 $(function () {
-  var words = ['DNA','RNA', 'Ácido Ribonucleico RNA', 'RNA Fita Simples', 'DNA Dupla Fita', 'Fita Simples', 'Ácido Desoxirribonucleico DNA', 
-               'Virus', 'RNA Mensageiro', 'Fita', 'Proteinas', 'Genoma', 'DNA duplo', 'Sequenciamento', 'DNA Complementares', 'Covid', 'Corona', 
+  var words = ['DNA','RNA', 'Ácido', 'Fita', 'DuplaFita', 'FitaSimples', 'ÁcidoDesoxirribonucleicoDNA', 
+               'Virus', 'RNAMensageiro', 'Proteinas', 'Genoma', 'DNAduplo', 'Sequenciamento', 'DNAComplementares', 'Covid', 'Corona', 
                'Pandemia', 'Sars', 'Hidroxicloroquina', 'Astrazeneca', 'Pfizer', 'Coronavac', 'Imunizacao'];
   // start a word find game
   var gamePuzzle = wordfindgame.create(
