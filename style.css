@@ -1,5 +1,5 @@
 body {
-  background: #306a8b;
+  background: #2d3c44;
 }
 
 .puzzleWrap {
@@ -33,7 +33,7 @@ p {
   height: 30px;
   width: 30px;
   text-transform: uppercase;
-  background-color: #306a8b;
+  background-color: #2d3c44;
   border: 0;
   outline: none;
   font: 1em sans-serif;
