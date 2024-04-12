@@ -1,18 +1,5 @@
-/**
-* Wordfind.js 0.0.1
-* (c) 2012 Bill, BunKat LLC.
-* Wordfind is freely distributable under the MIT license.
-* For all details and documentation:
-*     https://github.com/bunkat/wordfind
-*/
-
-$dkBlue: #306a8b;
-$ltblue: #6891ad;
-$red: #ee5426;
-$lightGrey: #c4c4c4;
-
 body {
-  background: $dkBlue;
+  background: #306a8b;
 }
 
 .puzzleWrap {
@@ -23,7 +10,7 @@ body {
 p {
   font: 22pt sans-serif;
   margin: 20px 20px 0px 45px;
-  color: $ltblue;
+  color: #6891ad;
 }
 
 /**
@@ -46,11 +33,11 @@ p {
   height: 30px;
   width: 30px;
   text-transform: uppercase;
-  background-color: $dkBlue;
+  background-color: #306a8b;
   border: 0;
   outline: none;
   font: 1em sans-serif;
-  color:   $ltblue;
+  color: #6891ad;
 }
 
 button::-moz-focus-inner {
@@ -62,19 +49,18 @@ button::-moz-focus-inner {
 #puzzle .selected {
   color: #ee5426;
   outline: none;
-  
-  &:focus {
-    border: none;
-  }
+}
+#puzzle .selected:focus {
+  border: none;
 }
 
-/* indicates that the square is part of a word that has been found */ 
+/* indicates that the square is part of a word that has been found */
 #puzzle .found {
-  color: $lightGrey;
+  color: #c4c4c4;
 }
 
 #puzzle .solved {
-  color: $red;
+  color: #ee5426;
 }
 
 /* indicates that all words have been found */
@@ -86,15 +72,8 @@ button::-moz-focus-inner {
 * Styles for the word list
 */
 #words {
-  // padding-top: 20px;
-  // -moz-column-count: 2;
-  // -moz-column-gap: 20px;
-  // -webkit-column-count: 2;
-  // -webkit-column-gap: 20px;
-  // column-count: 2;
-  // column-gap: 20px;
   width: 250px;
-  color: $ltblue;
+  color: #6891ad;
   float: left;
   margin-top: 37px;
 }
@@ -104,7 +83,7 @@ button::-moz-focus-inner {
 }
 
 #words li {
-  padding:  0 0 7px;
+  padding: 0 0 7px;
   font: 1em sans-serif;
   display: inline-block;
   float: left;
@@ -122,16 +101,14 @@ button::-moz-focus-inner {
 */
 #solve {
   margin: 30px 30px 0 40px;
-  
   background: transparent;
-  color: $red;
+  color: #ee5426;
   padding: 10px 20px;
-  border: 2px solid $red;
+  border: 2px solid #ee5426;
   border-radius: 25px;
-  opacity: .5;
-  transition: opacity .25s ease-in;
-  
-  &:hover, &.gameSolved {
-    opacity: 1;
-  }
+  opacity: 0.5;
+  transition: opacity 0.25s ease-in;
+}
+#solve:hover, #solve.gameSolved {
+  opacity: 1;
 }
