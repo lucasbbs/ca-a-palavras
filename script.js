@@ -4752,10 +4752,11 @@ $(function () {
 'yourself',
 'zero',
 ]
-  console.log(allWords);
-  var words = ['DNA','RNA', 'Ácido', 'Fita', 'DuplaFita', 'FitaSimples', 'ÁcidoDesoxirribonucleicoDNA', 
-               'Virus', 'RNAMensageiro', 'Proteinas', 'Genoma', 'DNAduplo', 'Sequenciamento', 'DNAComplementares', 'Covid', 'Corona', 
-               'Pandemia', 'Sars', 'Hidroxicloroquina', 'Astrazeneca', 'Pfizer', 'Coronavac', 'Imunizacao'];
+  var words = [];
+  for (let i = 0; i < 20; i++)
+    {
+      words.push(allWords[Math.floor(Math.random() * allWords.length)])
+    }
   // start a word find game
   var gamePuzzle = wordfindgame.create(
     words, 
