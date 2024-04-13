@@ -11,7 +11,7 @@ Welcome to our Word Search Game! This is a fun and engaging game where you can c
 - **Interactive Gameplay:** To find a word, simply select its starting letter and then drag your cursor to select the entire word.
 - **Auto-Solve Feature:** Stuck on a particularly tricky word? No worries! You can use the auto-solve feature to reveal the solution instantly.
 
-## Getting Started
+## :construction_worker: Getting Started
 
 1. **Installation:** No installation required! Simply access the game through your web browser.
 2. **Game Setup:** Choose the number of words you want to include in the game.
@@ -23,7 +23,7 @@ Welcome to our Word Search Game! This is a fun and engaging game where you can c
 
 This Word Search Game was developed by [Lucas Braga](https://github.com/lucasbbs) based on [Wordfind.js](https://github.com/bunkat/wordfind) and is brought to you with love and passion for word puzzles.
 
-# :closed_book: License
+## :closed_book: License
 
 :closed_book: License
 
