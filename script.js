@@ -4754,9 +4754,11 @@ $(function () {
 ]
   var words = [];
   const urlParams = new URLSearchParams(window.location.search);
-  const count = urlParams.get('count');
+    const count = urlParams.get('count')  || 20;
+  const countInput = document.getElementById('count-input');
+  countInput.value = count;
 
-  for (let i = 0; i < count || 20; i++)
+  for (let i = 0; i < count; i++)
     {
       words.push(allWords[Math.floor(Math.random() * allWords.length)])
     }
@@ -4765,7 +4767,7 @@ $(function () {
     words, 
     '#puzzle', 
     '#words', 
-    { height: 20, 
+    { height: 32, 
       width: 16, 
       fillBlanks: true
     });
