@@ -823,7 +823,9 @@
 
 }(document, jQuery, wordfind));
 
-$(function () {
+$(async function () {
+  const allWords = await fetch('words.txt').text();
+  console.log(allWords);
   var words = ['DNA','RNA', 'Ácido', 'Fita', 'DuplaFita', 'FitaSimples', 'ÁcidoDesoxirribonucleicoDNA', 
                'Virus', 'RNAMensageiro', 'Proteinas', 'Genoma', 'DNAduplo', 'Sequenciamento', 'DNAComplementares', 'Covid', 'Corona', 
                'Pandemia', 'Sars', 'Hidroxicloroquina', 'Astrazeneca', 'Pfizer', 'Coronavac', 'Imunizacao'];
