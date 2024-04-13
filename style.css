@@ -13,6 +13,36 @@ p {
   color: #6891ad;
 }
 
+
+#count-input {
+  margin: 0 30px 0 40px;
+  background: transparent;
+  color: #0ea78bc3;
+  padding: 10px 20px;
+  border: 2px solid #0ea78bc3;
+  border-radius: 25px;
+  outline: none;
+}
+
+form {
+  margin-top: 30px;
+}
+
+label {
+  color: #0ea78b;
+  margin: 0 30px 0 40px;
+}
+
+#submit-button {
+  margin: 0 30px 0 40px;
+  background: #0ea78b;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: 2px solid #0ea78b;
+  border-radius: 25px;
+  outline: none;
+}
+
 /**
 * Styles for the puzzle
 */
