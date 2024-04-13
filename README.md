@@ -2,6 +2,8 @@
 
 Welcome to our Word Search Game! This is a fun and engaging game where you can challenge yourself to find hidden words in a grid of letters. Below, you'll find all the necessary information to get started and enjoy the game to the fullest.
 
+![Favorite Countries Web Application](word-search.png)
+
 ## Features
 
 - **Random Words:** Each game session will have a unique set of words generated randomly.
