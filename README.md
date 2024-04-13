@@ -23,6 +23,12 @@ Welcome to our Word Search Game! This is a fun and engaging game where you can c
 
 This Word Search Game was developed by [Lucas Braga](https://github.com/lucasbbs) based on [Wordfind.js](https://github.com/bunkat/wordfind) and is brought to you with love and passion for word puzzles.
 
+## Contact
+
+Lucas Braga
+
+<a href="https://api.whatsapp.com/send?phone=12267247739" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a><a href="mailto:lucasbbs@live.fr" target="_blank"><img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" /></a><a href="https://github.com/lucasbbs/" target="_blank" ><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a><a href="https://linkedin.com/in/lucasbbs/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+
 ## :closed_book: License
 
 :closed_book: License
@@ -31,5 +37,5 @@ Initially Released in 2021
 
 Completelly refactored in 2024
 
-Made with :heart: by [Lucas Breno de Souza Noronha Braga](https://github.com/lucasbbs) 🚀.
+Made with :heart: by [Lucas Braga](https://github.com/lucasbbs) 🚀.
 This project is under the [MIT license](https://github.com/lucasbbs/iMonitor-Backend/master/LICENSE).
