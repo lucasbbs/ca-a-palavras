@@ -4757,6 +4757,7 @@ $(function () {
     const count = urlParams.get('count')  || 20;
   const countInput = document.getElementById('count-input');
   countInput.value = count;
+  document.newGame.action = window.location.origin
 
   for (let i = 0; i < count; i++)
     {
