@@ -4762,8 +4762,8 @@ $(function () {
     words, 
     '#puzzle', 
     '#words', 
-    { height: 10, 
-      width: 20, 
+    { height: 20, 
+      width: 10, 
       fillBlanks: true
     });
   $('#solve').click( function() {
