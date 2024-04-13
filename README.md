@@ -25,7 +25,8 @@ This Word Search Game was developed by [Lucas Braga](https://github.com/lucasbbs
 
 # :closed_book: License
 
-Initially Released in 2022 :closed_book: License
+:closed_book: License
+Initially Released in 2022 
 Completelly refactored in 2024
 
 Made with :heart: by [Lucas Breno de Souza Noronha Braga](https://github.com/lucasbbs) 🚀.
