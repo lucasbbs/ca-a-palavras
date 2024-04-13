@@ -4753,7 +4753,10 @@ $(function () {
 'zero',
 ]
   var words = [];
-  for (let i = 0; i < 20; i++)
+  const urlParams = new URLSearchParams(window.location.search);
+  const count = urlParams.get('count');
+
+  for (let i = 0; i < count || 20; i++)
     {
       words.push(allWords[Math.floor(Math.random() * allWords.length)])
     }
