@@ -1,6 +1,6 @@
 # Word Search Game
 
-![Static Badge](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Static Badge](https://img.shields.io/badge/version-2.0.0-blue.svg)
 ![Static Badge](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 
